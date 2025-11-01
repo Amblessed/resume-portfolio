@@ -14,6 +14,7 @@ function App() {
         <Skills />
         <Certificates />
         <FurtherTrainings />
+        <Contact />
       </main>
     </>
   );
