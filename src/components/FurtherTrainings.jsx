@@ -58,9 +58,7 @@ export default function FurtherTrainings() {
   ];
 
   return (
-    <section
-      id="further-trainings"
-      className="bg-white dark:bg-gray-900 px-6 py-10 md:px-12 lg:px-24 rounded-xl shadow-md"
+    <section className="bg-white dark:bg-gray-900 px-6 py-10 md:px-12 lg:px-24 rounded-xl shadow-md"
     >
       <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6 border-b-2 border-yellow-400 inline-block">
         Further Trainings
