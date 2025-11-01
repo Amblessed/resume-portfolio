@@ -4,6 +4,7 @@ import About from "./components/About Me";
 import Skills from "./components/Skills";
 import Certificates from "./components/Certificates";
 import FurtherTrainings from "./components/FurtherTrainings";
+import Contact from "./components/Contact";
 
 function App() {
   return (
