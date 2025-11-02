@@ -18,9 +18,9 @@ export default function About(){
     </p>
     <p>
       This challenge led me to <span class="font-semibold text-green-600 dark:text-green-400">Backend Engineering</span>. 
-      With 7 years in test automation and a growing focus on data-related topics, I now design systems that 
+      With 7 years experience in test automation and a growing focus on data-related topics, I am now learning how to design backend systems that 
       <span class="underline decoration-yellow-400"> capture truth and preserve dignity</span>. 
-      My current mission: to build a sponsorship portal that ensures every child’s story is recorded, every donation is traceable, and every sponsor can give with clarity and trust.
+      My current project: to build a <a href="https://village-sponsorship-portal-fe.vercel.app/" target="_blank" rel="noreferrer noopener" className="font-semibold text-blue-600 dark:text-blue-400 hover:underline">school (sponsorship) portal for the nursery and primary school</a> in my village that ensures every child’s story is recorded, every donation is traceable, and every sponsor can give with clarity and trust.
     </p>
     <p>
       I believe backend systems can do more than store data—they can 

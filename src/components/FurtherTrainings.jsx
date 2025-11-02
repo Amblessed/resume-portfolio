@@ -1,6 +1,13 @@
 export default function FurtherTrainings() {
   const trainings = [
     {
+      title: "The Ultimate React Course 2025: React, Next.js, Redux & More",
+      courseUrl: "https://www.udemy.com/course/the-ultimate-react-course/",
+      certificateUrl: "Ongoing",
+      overview:
+        "A hands-on, project-driven program designed to take learners from beginner to advanced in React and Next.js.",
+    },
+    {
       title: "Spring Boot Data JPA & Hibernate: Master Basics to Advance",
       courseUrl:
         "https://www.udemy.com/course/spring-boot-data-jpa-hibernate-master-basics-to-advance/",
@@ -18,8 +25,7 @@ export default function FurtherTrainings() {
         "Built RESTful APIs with Spring Boot, implementing full CRUD operations, MySQL integration via Spring Data JPA, DTO mapping, validation, proper HTTP status codes, global exception handling, and basic security with Spring Security.",
     },
     {
-      title:
-        "Full Stack: React and Java Spring Boot - The Developer Guide",
+      title: "Full Stack: React and Java Spring Boot - The Developer Guide",
       courseUrl:
         "https://www.udemy.com/course/full-stack-react-and-java-spring-boot-the-developer-guide/",
       certificateUrl:
@@ -58,8 +64,7 @@ export default function FurtherTrainings() {
   ];
 
   return (
-    <section className="bg-white dark:bg-gray-900 px-6 py-10 md:px-12 lg:px-24 rounded-xl shadow-md"
-    >
+    <section className="bg-white dark:bg-gray-900 px-6 py-10 md:px-12 lg:px-24 rounded-xl shadow-md">
       <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6 border-b-2 border-yellow-400 inline-block">
         Further Trainings
       </h2>
@@ -76,14 +81,22 @@ export default function FurtherTrainings() {
                 {training.title}
               </a>{" "}
               —{" "}
-              <a
-                href={training.certificateUrl}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="text-green-600 dark:text-green-400 hover:underline"
-              >
-                View Certificate
-              </a>
+              {training.certificateUrl === "Ongoing" ? (
+                <span className="italic text-gray-500 dark:text-gray-400">
+                  Ongoing
+                </span>
+              ) : (
+                <>
+                  <a
+                    href={training.certificateUrl}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-green-600 dark:text-green-400 hover:underline"
+                  >
+                    View Certificate
+                  </a>
+                </>
+              )}
             </p>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
               {training.overview}

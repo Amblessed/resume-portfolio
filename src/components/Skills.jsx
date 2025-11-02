@@ -1,15 +1,15 @@
 export default function Skills() {
   const skills = [
-    "Java 17+, Spring Boot, REST APIs",
-    "Python (Test Automation Frameworks)",
-    "Selenium, Playwright, Cucumber ", 
+    "Java, Python, Javascript",
+    "Selenium, Playwright, Cucumber, Postman",
     "JUnit, TestNG",
+    "Spring Boot, Spring Data JPA, Spring Security, REST APIs", 
     "Jenkins, GitHub Actions (CI/CD)",
     "HTML, CSS, JS, Bootstrap, React",
     "MySQL, PostgreSQL, SQL Server",
     "Scrum, Jira, Confluence",
-    "Data Engineering (Pandas, SQL)",
-    "Generative AI, Prompt Engineering, OpenAI API"
+    "Data Engineering, Data Analysis",
+    "Prompt Engineering, OpenAI API, ChatGPT"
   ];
 
   return (
